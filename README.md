@@ -11,6 +11,6 @@
 1) Using -> Express application generator
 
 ## Development Environtment
-1) Visual Studio Code
-    1.1) Javascript Standard Style (linter)
-    1.2) Bracket Pair Colorizer
+1) Visual Studio Code<br />
+    1.1) Javascript Standard Style (linter)<br />
+    1.2) Bracket Pair Colorizer<br />
