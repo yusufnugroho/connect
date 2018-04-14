@@ -1,4 +1,5 @@
-import { observable, action } from 'mobx';
+import { observable, action } from 'mobx'
+import * as pino from 'pino'
 
 
 class AuthStore {
@@ -8,6 +9,7 @@ class AuthStore {
     }
     @action setUsername(username){
         this.authData.username = username
+        pino.info('current username ', this.authData.username)
     }
     @action setPassword(password){
         this.authData.password = password
