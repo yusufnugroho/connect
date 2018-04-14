@@ -11,6 +11,11 @@
 ## Framework Express Info
 1) Using -> Express application generator
 
+## Client Info 
+1) using create-react-app<br />
+    1.1) state management using mobx and mobx-react<br />
+    1.2) create-react-app eject -> enable decorator<br />
+
 ## Development Environtment
 1) Visual Studio Code<br />
     1.1) Javascript Standard Style (linter)<br />

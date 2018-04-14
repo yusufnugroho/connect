@@ -9,7 +9,7 @@ class AuthStore {
     }
     @action setUsername(username){
         this.authData.username = username
-        console.log()
+        pino.info('current username ', this.authData.username)
     }
     @action setPassword(password){
         this.authData.password = password
