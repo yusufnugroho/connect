@@ -1,6 +1,20 @@
 # connect
 ## App to connect suffer people from internal or external disease to loved one
 
+## How To Setup
+1) Install NodeJS(> 8.10)<br />
+2) Install nodemon(runner), concurently(run multiple program concurently), and mocha(test runner)<br />
+> `$ npm install --global nodemon concurently mocha`<br />
+3) Clone This Git<br />
+> `$ git pull origin master`<br />
+4) Install all library dependency for express(backend) on root directory and react(front end) on client directory<br />
+> `$ npm install && cd client && npm install`<br />
+5) Run application front end and backend -> check package.json on root folder for shorcut command<br />
+> `$ npm run all`<br />
+6) Check Browser for result<br />
+
+
+
 ## Information
 1) Web Application
 2) Mobile First
